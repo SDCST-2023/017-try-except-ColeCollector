@@ -15,3 +15,17 @@ The reciprocal of 3 is 0.3333333333333333
 The reciprocal of 4 is 0.25
 """
 numbers = [0,1,2,3,4]
+x=0
+
+while x != 5:
+    try:
+        y = numbers.index(x)
+        reciprocal = 1/y
+        print("The reciprocal of", y, "is", reciprocal)
+        x = x+1
+
+    except:
+        print("The reciprocal of", y, "does not exist")
+        x = x+1
+    
+
